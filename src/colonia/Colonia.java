@@ -18,6 +18,7 @@ public class Colonia {
 		System.out.println(myAnt);
 		System.out.println("My Colony Name: " + myColony.getName());
 		System.out.println("My Colony Jobs: " + myColony.getJobs());
+//		System.out.println(myColony);
 	}
 
 }

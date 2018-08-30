@@ -1,18 +1,11 @@
 package colonia.model;
 
-import java.util.Set;
-
 public abstract class AbstractOrganism {
 	private boolean alive = true;
 	private boolean active = false;
 	private String name;
-	private Set<String> jobs;
-	private String currentjob;
 
-	public void addJobs(String... newJobs) {
-		// using array unpacking with the String...
-		// this.setJobs(Set<newJobs>)
-	}
+	private String currentjob;
 
 	public boolean isAlive() {
 		return alive;
@@ -36,14 +29,6 @@ public abstract class AbstractOrganism {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public Set<String> getJobs() {
-		return jobs;
-	}
-
-	public void setJobs(Set<String> jobs) {
-		this.jobs = jobs;
 	}
 
 	public String getCurrentjob() {
